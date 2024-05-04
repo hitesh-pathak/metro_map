@@ -45,6 +45,12 @@
         body div.description ul {
             margin-left: 10px;
         }
+
+        body a::after {
+            content: "\00a0\1F517"; /* Unicode for space and link icon */
+            display: inline-block;
+            margin-left: 5px; /* Adjust as needed */
+        }
     </style>
 </head>
 <body>
@@ -55,7 +61,7 @@
             <li>Hey 👋 I built this data-viz app with Leaflet and JS</li>
             <li>Try searching for US metros like San Francisco</li>
             <li>Try to resize the browser window to a small mobile-device width (or open on mobile) to see how the app reacts 🤔</li>
-            <li>The source code is proprietary and only the template was published to <a href="https://flourish.studio"></a>Flourish</li>
+            <li>The source code is proprietary and only the template was published to <a href="https://flourish.studio" >Flourish</a></li>
             <li>Have fun 😊</li>
         </ul>
 
