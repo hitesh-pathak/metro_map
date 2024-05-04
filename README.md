@@ -1,5 +1,5 @@
 # metro_map
 A data visualization map template created using Leaflet and JS
-This is just an embed of the visualization for demonstration purposes, the actual JS code is proprietary and was used to create the template on Flourish [https://flourish.studio]
+This is just an embed of the visualization for demonstration purposes, the actual JS code is proprietary and was used to create the template on [Flourish](https://flourish.studio)
 
-<iframe src='https://flo.uri.sh/visualisation/12521387/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12521387/?utm_source=embed&utm_campaign=visualisation/12521387' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+[Link to the website demonstrating Metro Map data-viz app](https://hitesh-pathak.github.io/metro_map/)
