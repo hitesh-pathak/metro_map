@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Metro Map Example</title>
     <style>
         body {
@@ -13,11 +16,29 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            text-align: left;
+            font-family: "Source Sans 3", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 1.5;
+            color: "#404b54";
         }
         
         body div.flourish-embed {
             width: 100%;
             height: auto;
+        }
+
+        body div.description h1 {
+            font-weight: 600;
+            font-size: 18px;
+
+        }
+
+        body div.description ul {
+            margin-left: 10px;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -25,11 +46,14 @@
     <div class="description">
         <h1>Metro Map</h1>
         <br/>
-        <li>Hey 👋 I built this data-viz app with Leaflet and JS</li>
-        <li>Try searching for US metros like San Francisco</li>
-        <li>Try to resize the browser window to a small mobile-device width (or open on mobile) to see how the app reacts 🤔</li>
-        <li>The source code is proprietary and only the template was published to <a href="https://flourish.studio"></a>Flourish</li>
-        <li>Have fun 😊</li>
+        <ul>
+            <li>Hey 👋 I built this data-viz app with Leaflet and JS</li>
+            <li>Try searching for US metros like San Francisco</li>
+            <li>Try to resize the browser window to a small mobile-device width (or open on mobile) to see how the app reacts 🤔</li>
+            <li>The source code is proprietary and only the template was published to <a href="https://flourish.studio"></a>Flourish</li>
+            <li>Have fun 😊</li>
+        </ul>
+
     </div>
     <div class="flourish-embed" data-src="visualisation/12521387"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 </body>
